@@ -1,0 +1,124 @@
+
+header, section, figure, div {
+    display: flex;
+}
+
+html {
+    background-image: url(https://st03.kakprosto.ru/images/article/2015/10/12/70234_561bbaaa939db561bbaaa93a11.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+
+    
+   
+    div.general {
+        max-width: 960px;
+        min-width: 30%;
+        
+        margin: auto;
+        padding: 1%;
+        flex-direction: column;
+      }
+      
+      /*section.header {
+        background: rgb(194, 55, 152);
+        height: 100%;
+        width: 100%;
+        margin: 10px;
+        padding: 10px;
+      }
+      
+      figure {
+        background: rgb(82, 63, 167);
+        color: rgb(40, 158, 55);
+        margin: 10px;
+        padding: 10px;
+      }*/
+
+      h1 {
+        display: flex;
+        font-size: 200%;     
+        margin: auto;
+        color: rgb(18, 171, 241);
+        justify-content: center;
+        align-content: space-between;
+      }
+      
+      div.lower {
+        background: gray;
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+        justify-content: center;
+        margin: 1%;
+        padding: 2%;
+      }
+      
+      section.leftSide {
+        
+        background: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        flex-direction: column;
+        border-radius: 10px;
+        margin: 1%;
+        padding: 2%;
+        
+      }
+      
+      section.rightSide {
+        background: white;
+        flex-direction: column;
+        border-radius: 10px;
+        width: 30%;
+        margin: 1%;
+        padding: 2%;
+      }
+      
+      p.year {
+        display: flex;
+          color: rgb(9, 9, 114);
+      }
+
+      p.contact {
+        display: flex;
+      }
+
+      img.badge {
+          width: 20px;
+          height: 20px;
+      }
+      h3 {
+        display: flex;
+        font-size: 150%;     
+        margin: auto;
+        color: rgb(18, 171, 241);
+        justify-content: center;
+        align-content: space-between;
+      }
+      progress {
+        background-color: #fa3f3f;
+        
+        height: 9px;
+        border-radius: 9px;
+      }
+      table {
+        width: 100%;
+        border-spacing: 4px 10px;
+      }
+      td.year {
+        width: 15%;
+        color:  rgb(18, 171, 241);
+      }
+      td.lineName {
+        width: 35%;
+      }
+      td.status {
+        text-align: right;
+        width: 15%;
+      }
+      
