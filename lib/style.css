@@ -13,7 +13,9 @@ html {
     -o-background-size: cover;
     background-size: cover;
     }
-
+body {
+  font-family:'Times New Roman', Times, serif, Georgia, ;
+}
     
    
     div.general {
